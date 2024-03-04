@@ -56,9 +56,6 @@ class Adventure extends Phaser.Scene {
             repeat: -1
         })
 
-        // //Adicionando o "foguinho" do modo turbo
-        // fogo = this.add.sprite(0, 0, 'turbo_nave');
-        // fogo.setVisible(false);
         
         //criação do player
         player = this.physics.add.sprite(TamTela[0]/2, 0, 'player');
